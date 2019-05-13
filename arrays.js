@@ -33,4 +33,4 @@ function accessElementInArray(array, index){
 }
 
 accessElementInArray(chocolateBars, 3)
-addElementToEndOfArray(chocolateBars, "rolos")()
+destructivelyAddElementToEndOfArrayaddElementToEndOfArray(chocolateBars, "rolos")()
