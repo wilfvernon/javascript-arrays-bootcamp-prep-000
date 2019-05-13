@@ -25,11 +25,11 @@ function addElementToEndOfArray(array, element){
   }
 }
 function accessElementInArray(array, index){
-  return array[index]
+console.log(array[index])
   return function callIndex(array, index){
     console.log(array[index])
   }
 }
 
-accessElementInArray(chocolateBars, 3)(chocolateBars, 3)
+accessElementInArray(chocolateBars, 3)
 destructivelyAddElementToEndOfArray(chocolateBars, "rolos")()
