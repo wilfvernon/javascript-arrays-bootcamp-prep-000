@@ -13,7 +13,6 @@ function addElementToBeginningOfArray(array, element){
   }
 }
 function destructivelyAddElementToEndOfArray(array, element){
-  newarray = array.push(element)
   array.push(element)
   return function callNewArray(){
     console.log(newarray)
